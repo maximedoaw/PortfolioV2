@@ -93,7 +93,9 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <a href="https://wa.me/677271237">
+                <p className="grid-subtext text-center">Contact me</p>
+              </a>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">maximedoaw204@gmail.com</p>
